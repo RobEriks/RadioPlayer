@@ -1,0 +1,40 @@
+
+OWASP
+
+1
+OWASP är en organisation som jobbar för att göra webbsidor säkrare. Deras mål är att hjälpa utvecklare att undvika säkerhetsproblem genom att ge information och verktyg
+
+2
+Injection är när någon försöker smyga in skadlig kod i en webbsida via användarinmatning. Till exempel kan en angripare använda en sk SQL injektion för att få åtkomst till en databas och ta information
+
+3
+Använd starka lösenord och tvåfaktorsautentisering
+Göra så att användaren loggas ut automatiskt efter en tid av inaktivitet
+
+
+4
+Insecure Deserialization kan låta en angripare köra skadlig kod. För att skydda sig kan man kontrollera och validera data som kommer in till webbsidan
+
+5
+XSS är när någon smyger in skadlig kod på en sida som sedan körs i en användares webbläsare. För att förhindra det kan man:
+Kontrollera och rensa indata.
+Använda Content Security Policy även kallad (CSP)
+
+
+
+WCAG
+
+1
+Semantiska element, som <header> och <main>, gör webbsidor enklare att förstå för personer med funktionsnedsättningar. De hjälper skärmläsare att navigera bättre på sidan
+
+2
+Bra färgkontrast gör texten lättare att läsa för personer med synproblem. Den mest rekommenderade eller den vanligaste kontrasten är på minst 4.5:1 för vanlig text
+
+3
+Alt text beskriver vad en bild visar. Det hjälper personer som inte kan se bilden, tex de som använder skärmläsare. Exempel, alt texten kan tex beskriva en glad hund på en gräsmatta
+
+4
+Landmärken, som <nav> och <footer>, hjälper personer som använder hjälpmedel att hoppa mellan olika delar av en webbsida
+
+5
+Formulär ska vara tydliga så att skärmläsare kan läsa dem. Vi kan använda <label> för att koppla text till ett fält, så det blir lättare att förstå
